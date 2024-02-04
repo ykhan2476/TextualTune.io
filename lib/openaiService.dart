@@ -5,8 +5,6 @@ import 'package:http/http.dart' as http;
 // https://api.openai.com/v1/chat/completions
 // openassistant-llama2-70b
 //https://api.llama-api.com/chat/completions
-const aikey="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";
-const lammakey ="LL-bfvEi4h8GtwWlljH71fxHE1oEZTK6ZgYRYktPBU8KfuvEGV9d0kk3l55t17oVVpn";
 class openaiService{
   final List<Map<String ,String>> messages=[];
 
